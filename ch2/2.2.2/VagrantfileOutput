@@ -1,0 +1,94 @@
+vagrant provision
+==> m-k8s: Running provisioner: shell...
+    m-k8s: Running: C:/Users/user/AppData/Local/Temp/vagrant-shell20240811-32072-32gg91.sh
+    m-k8s: Loaded plugins: fastestmirror
+    m-k8s: Loading mirror speeds from cached hostfile
+    m-k8s: Resolving Dependencies
+    m-k8s: --> Running transaction check
+    m-k8s: ---> Package epel-release.noarch 0:7-11 will be installed
+    m-k8s: --> Finished Dependency Resolution
+    m-k8s: 
+    m-k8s: Dependencies Resolved
+    m-k8s:
+    m-k8s: ================================================================================
+    m-k8s:  Package                Arch             Version         Repository        Size
+    m-k8s: ================================================================================
+    m-k8s: Installing:
+    m-k8s:  epel-release           noarch           7-11            extras            15 k
+    m-k8s:
+    m-k8s: Transaction Summary
+    m-k8s: ================================================================================
+    m-k8s: Install  1 Package
+    m-k8s:
+    m-k8s: Total download size: 15 k
+    m-k8s: Installed size: 24 k
+    m-k8s: Downloading packages:
+    m-k8s: Running transaction check
+    m-k8s: Running transaction test
+    m-k8s: Transaction test succeeded
+    m-k8s: Running transaction
+    m-k8s:   Installing : epel-release-7-11.noarch                                     1/1
+    m-k8s:   Verifying  : epel-release-7-11.noarch                                     1/1
+    m-k8s:
+    m-k8s: Installed:
+    m-k8s:   epel-release.noarch 0:7-11
+    m-k8s:
+    m-k8s: Complete!
+    m-k8s: Loaded plugins: fastestmirror
+    m-k8s: Loading mirror speeds from cached hostfile
+    m-k8s:  * epel: d2lzkl7pfhq30w.cloudfront.net
+    m-k8s: Resolving Dependencies
+    m-k8s: --> Running transaction check
+    m-k8s: ---> Package vim-enhanced.x86_64 2:7.4.629-8.el7_9 will be installed
+    m-k8s: --> Processing Dependency: vim-common = 2:7.4.629-8.el7_9 for package: 2:vim-enhanced-7.4.629-8.el7_9.x86_64
+    m-k8s: --> Processing Dependency: libgpm.so.2()(64bit) for package: 2:vim-enhanced-7.4.629-8.el7_9.x86_64
+    m-k8s: --> Running transaction check
+    m-k8s: ---> Package gpm-libs.x86_64 0:1.20.7-6.el7 will be installed
+    m-k8s: ---> Package vim-common.x86_64 2:7.4.629-8.el7_9 will be installed
+    m-k8s: --> Processing Dependency: vim-filesystem for package: 2:vim-common-7.4.629-8.el7_9.x86_64
+    m-k8s: --> Running transaction check
+    m-k8s: ---> Package vim-filesystem.x86_64 2:7.4.629-8.el7_9 will be installed
+    m-k8s: --> Finished Dependency Resolution
+    m-k8s: 
+    m-k8s: Dependencies Resolved
+    m-k8s:
+    m-k8s: ================================================================================
+    m-k8s:  Package              Arch         Version                  Repository     Size
+    m-k8s: ================================================================================
+    m-k8s: Installing:
+    m-k8s:  vim-enhanced         x86_64       2:7.4.629-8.el7_9        updates       1.1 M
+    m-k8s: Installing for dependencies:
+    m-k8s:  gpm-libs             x86_64       1.20.7-6.el7             base           32 k
+    m-k8s:  vim-common           x86_64       2:7.4.629-8.el7_9        updates       5.9 M
+    m-k8s:  vim-filesystem       x86_64       2:7.4.629-8.el7_9        updates        11 k
+    m-k8s: 
+    m-k8s: Transaction Summary
+    m-k8s: ================================================================================
+    m-k8s: Install  1 Package (+3 Dependent packages)
+    m-k8s:
+    m-k8s: Total download size: 7.0 M
+    m-k8s: Installed size: 23 M
+    m-k8s: Downloading packages:
+    m-k8s: --------------------------------------------------------------------------------
+    m-k8s: Total                                              4.5 MB/s | 7.0 MB  00:01
+    m-k8s: Running transaction check
+    m-k8s: Running transaction test
+    m-k8s: Transaction test succeeded
+    m-k8s: Running transaction
+    m-k8s:   Installing : 2:vim-filesystem-7.4.629-8.el7_9.x86_64                      1/4
+    m-k8s:   Installing : 2:vim-common-7.4.629-8.el7_9.x86_64                          2/4
+    m-k8s:   Installing : gpm-libs-1.20.7-6.el7.x86_64                                 3/4
+    m-k8s:   Installing : 2:vim-enhanced-7.4.629-8.el7_9.x86_64                        4/4
+    m-k8s:   Verifying  : gpm-libs-1.20.7-6.el7.x86_64                                 1/4
+    m-k8s:   Verifying  : 2:vim-enhanced-7.4.629-8.el7_9.x86_64                        2/4
+    m-k8s:   Verifying  : 2:vim-common-7.4.629-8.el7_9.x86_64                          3/4
+    m-k8s:   Verifying  : 2:vim-filesystem-7.4.629-8.el7_9.x86_64                      4/4
+    m-k8s:
+    m-k8s: Installed:
+    m-k8s:   vim-enhanced.x86_64 2:7.4.629-8.el7_9
+    m-k8s:
+    m-k8s: Dependency Installed:
+    m-k8s:   gpm-libs.x86_64 0:1.20.7-6.el7           vim-common.x86_64 2:7.4.629-8.el7_9
+    m-k8s:   vim-filesystem.x86_64 2:7.4.629-8.el7_9
+    m-k8s:
+    m-k8s: Complete!
