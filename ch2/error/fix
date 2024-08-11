@@ -1,3 +1,7 @@
+sudo vi /etc/yum.repos.d/CentOS-Base.repo
+
+
+
 [base]
 name=CentOS-$releasever - Base
 baseurl=http://vault.centos.org/centos/7/os/$basearch/
